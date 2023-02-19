@@ -11,7 +11,14 @@ module.exports = {
   theme: {
     extend: {
       fontFamily:{
-        Glock: ['Gloock', "serif"]
+        glock: ["Glock","serif"],
+        saira:['Saira Extra Condensed', 'sans-serif']
+      },
+      colors:{
+        primaryText: "#1b9173",
+        grayText:"#868e96",
+        mainFont: "#303030e6",
+        titleFont: "#121111e8"
       }
     },
   },

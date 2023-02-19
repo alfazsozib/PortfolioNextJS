@@ -1,17 +1,19 @@
 import img from "./Profile.jpg"
 import Image from 'next/image'
+import Link from "next/link"
 
 function Sidebar() {
     return (
-      <div className="max-w-[1644px] h-[100vh] w-[20%] bg-[#bd5d38]">
-        <div className="mx-auto flex flex-col justify-center gap-8 items-center w-40 h-40">
-          <Image className="rounded-full object-center border-8 mt-80 border-[#ca7d60]" src={img} alt="" />
-          <ul className="text-center flex flex-col gap-2 text-[#9f9b9a] font-Glock">
-            <li><a href="">ABOUT</a></li>
-            <li><a href="">EXPERIENCE</a></li>
-            <li><a href="">EDUCATION</a></li>
-            <li><a href="">SKILL</a></li>
-            <li><a href="">INTEREST</a></li>
+      // bg-[#bd5d38]
+      <div className="w-[21%] fixed h-[100vh] bg-[#1b9173]">
+        <div className="mx-auto flex flex-col justify-center items-center pt-[6rem] gap-8">
+          <Image className="rounded-full border-[8px] w-[170px] h-[170px] object-cover  border-[#20ad8a]" src={img} alt="Alfaz" />
+          <ul className="text-center flex flex-col gap-2 text-[rgba(255,255,255,0.57)] text-2xl font-semibold leading-[2.5rem]">
+            <li className="hover:text-[#ffffffcd]"><Link href={"#about"}>ABOUT</Link></li>
+            <li className="hover:text-[#ffffffcd]"><Link href={"#experience"}>EXPERIENCE</Link></li>
+            <li className="hover:text-[#ffffffcd]"><a href="">EDUCATION</a></li>
+            <li className="hover:text-[#ffffffcd]"><a href="">SKILL</a></li>
+            <li className="hover:text-[#ffffffcd]"><a href="">INTEREST</a></li>
           </ul>
         </div>
       </div>
