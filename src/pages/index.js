@@ -1,6 +1,7 @@
 import About from "@/components/About"
 import Education from "@/components/Education"
 import Experience from "@/components/Experience"
+import Skill from "@/components/Skill"
 import Sidebar from "../components/Sidebar"
 
 export default function Home() {
@@ -13,6 +14,9 @@ export default function Home() {
           <Experience />
           <hr className="h-1 bg-slate-300 mr-4" />
           <Education />
+          <hr className="h-1 bg-slate-300 mr-4" />
+          <Skill />
+          <hr className="h-1 bg-slate-300 mr-4" />
 
         </div>
         
