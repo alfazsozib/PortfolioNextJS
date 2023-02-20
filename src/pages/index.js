@@ -1,4 +1,5 @@
 import About from "@/components/About"
+import Education from "@/components/Education"
 import Experience from "@/components/Experience"
 import Sidebar from "../components/Sidebar"
 
@@ -10,6 +11,9 @@ export default function Home() {
           <About />
           <hr className="h-1 bg-slate-300 mr-4" />
           <Experience />
+          <hr className="h-1 bg-slate-300 mr-4" />
+          <Education />
+
         </div>
         
     </div>
