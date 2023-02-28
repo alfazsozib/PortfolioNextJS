@@ -12,8 +12,9 @@ function Sidebar() {
             <li className="hover:text-[#ffffffcd]"><Link href={"#about"}>ABOUT</Link></li>
             <li className="hover:text-[#ffffffcd]"><Link href={"#experience"}>EXPERIENCE</Link></li>
             <li className="hover:text-[#ffffffcd]"><Link href={"#education"}>EDUCATION</Link></li>
-            <li className="hover:text-[#ffffffcd]"><a href="">SKILL</a></li>
-            <li className="hover:text-[#ffffffcd]"><a href="">INTEREST</a></li>
+            <li className="hover:text-[#ffffffcd]"><Link href="#skill">SKILL</Link></li>
+            <li className="hover:text-[#ffffffcd]"><Link href="#project">PROJECTS</Link></li>
+            <li className="hover:text-[#ffffffcd]"><Link href="#interest">INTEREST</Link></li>
           </ul>
         </div>
       </div>

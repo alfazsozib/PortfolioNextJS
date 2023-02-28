@@ -2,17 +2,13 @@ import React from 'react'
 import { SiTailwindcss,SiWordpress, SiHiveBlockchain ,SiReact, SiNodedotjs,SiCplusplus, SiNextdotjs, SiMongodb, SiHtml5, SiPython, SiWeb3Dotjs, SiEthereum } from "react-icons/si"
 import { RxDot } from "react-icons/rx"
 
-function Skill() {
-            
+function Skill() {   
     return (
-        <div id='experience' className='h-[100%] max-w-[1644px] pt-12'>
-
+        <div id='skill' className='h-[100%] max-w-[1644px] pt-12'>
             <h1 className='text-[40px] pb-4 text-[#121111e8] font-saira font-bold'>SKILL</h1>
             <div className='experience-text--box flex justify-between mr-4'>
                 <h1 className='text-[22px] text-titleFont font-bold font-saira'>PROGRAMMING LANGUAGE AND TOOLS</h1>
-                
             </div>
-
             <div className='text--box flex gap-8 py-12'>
                 <SiHtml5 size={55} className="text-gray-600"/>
                 <SiTailwindcss size={55} className="text-gray-600"/>

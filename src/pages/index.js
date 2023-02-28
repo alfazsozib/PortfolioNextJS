@@ -1,6 +1,7 @@
 import About from "@/components/About"
 import Education from "@/components/Education"
 import Experience from "@/components/Experience"
+import Project from "@/components/Project"
 import Skill from "@/components/Skill"
 import Sidebar from "../components/Sidebar"
 
@@ -17,6 +18,10 @@ export default function Home() {
           <hr className="h-1 bg-slate-300 mr-4" />
           <Skill />
           <hr className="h-1 bg-slate-300 mr-4" />
+          <Project />
+          <hr className="h-1 bg-slate-300 mr-4" />
+          {/* <Skill /> */}
+         
 
         </div>
         
