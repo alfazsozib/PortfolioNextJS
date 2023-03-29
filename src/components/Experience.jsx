@@ -4,13 +4,13 @@ import { experiences } from './ExpData'
 function Experience() {
     console.log(experiences)
     return (
-        <div id='experience' className='h-[100%] max-w-[1644px] pt-12'>
+        <div id='experience' className='h-[100%] max-w-[1644px] pt-12 pl-80'>
             <h1 className='text-[40px] pb-4 text-[#121111e8] font-saira font-bold'>EXPERIENCE</h1>
             {experiences.map((data,index)=>
             <>
             <div className='experience-text--box flex justify-between mr-4'>
                 <h1 className='text-[22px] text-titleFont font-bold font-saira'>{data.title}</h1>
-                <p className='text-primaryText font-semibold text-sm'>{data.date}</p>
+                <p className='text-[#5800FF] font-semibold text-sm'>{data.date}</p>
             </div>
             <div className='company'>
                 <h1 className='text-grayText font-semibold'>{data.company}</h1>
