@@ -8,9 +8,9 @@ import Sidebar from "../components/Sidebar"
 
 export default function Home() {
   return (
-    <div className="flex">
+    <div className="flex max-md:flex-none">
         <Sidebar />
-        <div className="bg-[#f9fafa] w-[100%] h-[100%]">
+        <div className="bg-[#f9fafa]  w-[100%] h-[100%]">
           <About />
           <hr className="h-1 bg-slate-300 mr-4" />
           <Experience />

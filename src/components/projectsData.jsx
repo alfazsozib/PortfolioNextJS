@@ -3,7 +3,7 @@ import proj2 from "./images/port2.PNG"
 
 const projects = [
     {
-        name:"First Project",
+        name:"First Web3 Project FullStack",
         description:"this is first project",
         image:proj1,
         projLink:"http://45.32.194.189:3000/"

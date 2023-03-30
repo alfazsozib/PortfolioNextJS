@@ -12,13 +12,14 @@ module.exports = {
     extend: {
       fontFamily:{
         glock: ["Glock","serif"],
-        saira:['Saira Extra Condensed', 'sans-serif']
+        saira:['Saira Extra Condensed', 'sans-serif'],
+        openSans:['Open Sans', 'sans-serif']
       },
       colors:{
         primaryText: "#1b9173",
         grayText:"#868e96",
         mainFont: "#303030e6",
-        titleFont: "#121111e8"
+        titleFont: "#343a40"
       }
     },
   },
