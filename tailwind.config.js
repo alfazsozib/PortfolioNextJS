@@ -20,7 +20,11 @@ module.exports = {
         grayText:"#868e96",
         mainFont: "#303030e6",
         titleFont: "#343a40"
-      }
+      },
+      screens: {
+        'sm-custom': '742px', // Define the custom breakpoint
+        'md-custom': '800px'
+      },
     },
   },
   plugins: [],

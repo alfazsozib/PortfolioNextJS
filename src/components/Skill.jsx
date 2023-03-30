@@ -9,7 +9,7 @@ function Skill() {
             <div className='experience-text--box flex justify-between mr-4'>
                 <h1 className='text-[22px] text-titleFont font-bold font-saira'>PROGRAMMING LANGUAGE AND TOOLS</h1>
             </div>
-            <div className='text--box flex max-sm:grid max-sm:grid-cols-3 gap-8 py-12'>
+            <div className='text--box flex max-sm:grid max-sm:grid-cols-3 md:pr-8 gap-8 py-12'>
                 <SiHtml5 size={55} className="text-gray-600 hover:text-[#5800FF]"/>
                 <SiTailwindcss size={55} className="text-gray-600 hover:text-[#5800FF]"/>
                 <SiReact size={55} className="text-gray-600 hover:text-[#5800FF]"/>

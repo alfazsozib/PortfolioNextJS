@@ -8,8 +8,8 @@ function Education() {
             {educations.map((data,index)=>
             <>
             <div className='experience-text--box flex justify-between mr-4'>
-                <h1 className='text-[22px] text-titleFont font-bold font-saira'>{data.school}</h1>
-                <p className='text-[#5800FF] font-semibold text-sm'>{data.date}</p>
+                <h1 className='text-[22px] max-md:text-[20px] text-titleFont font-bold font-saira'>{data.school}</h1>
+                <p className='text-[#5800FF] font-semibold max-md:text-[12px]'>{data.date}</p>
             </div>
             <div className='company'>
                 <h1 className='text-grayText font-saira font-medium text-xl'>{data.degree}</h1>
