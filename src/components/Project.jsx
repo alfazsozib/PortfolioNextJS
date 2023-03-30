@@ -11,14 +11,13 @@ function Project() {
       {projects.map((data,index)=>
       <div className='box w-[400px] ' key={index}>
         <div className='content w-[450px] md:w-[420px] sm-custom:w-[300px] max-md:w-[350px] max-sm:w-[300px] h-[330px] p-2 pb-4 border-2 border-[#5800FF] rounded-lg hover:border-[#5800FF]'  >
-            <Image className='object-cover w-[450px] max-md:w-[350px] h-[200px] rounded-lg' src={data.image}/>
+            <Image className='object-cover w-[450px] max-md:w-[350px] h-[200px] rounded-lg' src={data.image} alt={''} />
             <div>
             <h1 className='pt-2 font-saira font-medium text-xl text-titleFont'>{data.name}</h1>
             <h2 className='py-2'>{data.description}</h2>
-            <button className='bg-[#5800FF] hover:bg-[#5d1dd3] w-[100%] rounded-lg py-2 text-teal-50 text-center'><a href={data.projLink} target="_blank" >PREVIEW</a></button>
+            <button className='bg-[#5800FF] hover:bg-[#5d1dd3] w-[100%] rounded-lg py-2 text-teal-50 text-center'><a href={data.projLink} rel="noreferrer" >PREVIEW</a></button>
             </div>
         </div>
-        
       </div>
       
       )}
