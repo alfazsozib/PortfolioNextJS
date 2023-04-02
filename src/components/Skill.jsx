@@ -24,12 +24,12 @@ function Skill() {
             </div>         
             <div>
                 <h1 className='text-grayText font-openSans text-xl font-semibold py-4'>WORKFLOW</h1>
-                <div className='pl-6'>
+                <div className='pl-6 max-sm:pl-0'>
                     <div>
-                        <p className='text-grayText font-openSans flex items-center text-[17px]'> <RxDot /> Responsive Design For All Screen</p>
-                        <p className='text-grayText font-openSans flex items-center text-[17px]'> <RxDot /> Single And Multiple Pages</p>
-                        <p className='text-grayText font-openSans flex items-center text-[17px]'> <RxDot /> Web3 Development (BACKEND)</p>
-                        <p className='text-grayText font-openSans flex items-center text-[17px]'> <RxDot /> Wallet Integration</p>
+                        <p className='text-grayText font-openSans flex items-center text-[17px] max-sm:text-[18px]'> <RxDot /> Responsive Design For All Screen</p>
+                        <p className='text-grayText font-openSans flex items-center text-[17px] max-sm:text-[18px]'> <RxDot /> Single And Multiple Pages</p>
+                        <p className='text-grayText font-openSans flex items-center text-[17px] max-sm:text-[18px]'> <RxDot /> Web3 Development (BACKEND)</p>
+                        <p className='text-grayText font-openSans flex items-center text-[17px] max-sm:text-[18px]'> <RxDot /> Wallet Integration</p>
                     </div>
                     
                 </div>

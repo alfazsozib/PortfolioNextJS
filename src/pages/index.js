@@ -12,17 +12,17 @@ export default function Home() {
         <Sidebar />
         <div className="bg-[#f9fafa]  w-[100%] h-[100%]">
           <About />
-          <hr className="h-1 bg-slate-300 mr-4" />
+          <hr className="h-1 bg-slate-300 mr-4 max-sm:mr-0" />
           <Experience />
-          <hr className="h-1 bg-slate-300 mr-4" />
+          <hr className="h-1 bg-slate-300 mr-4 max-sm:mr-0" />
           <Education />
-          <hr className="h-1 bg-slate-300 mr-4" />
+          <hr className="h-1 bg-slate-300 mr-4 max-sm:mr-0" />
           <Skill />
-          <hr className="h-1 mt-12 bg-slate-300 mr-4" />
+          <hr className="h-1 mt-12 bg-slate-300 mr-4 max-sm:mr-0" />
           <Project />
-          <hr className="h-1 bg-slate-300 mr-4 my-12" />
+          <hr className="h-1 bg-slate-300 my-12 mr-4 max-sm:mr-0" />
           <Interest />
-          {/* <Skill /> */}
+
          
 
         </div>
