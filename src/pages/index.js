@@ -13,7 +13,7 @@ export default function Home() {
         <Sidebar />
         
         <div className="bg-[#f9fafa]  w-[100%] h-[100%]">
-        {/* <MobileNav /> */}
+
           <About />
           <hr className=" bg-slate-300 mr-4 max-sm:mr-0" />
           <Experience />
@@ -25,10 +25,6 @@ export default function Home() {
           <Project />
           <hr className=" bg-slate-300 my-12 mr-4 max-sm:mr-0" />
           <Interest />
-
-
-         
-
         </div>
         
     </div>

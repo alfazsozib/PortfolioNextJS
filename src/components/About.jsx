@@ -1,22 +1,16 @@
 import React, { useState } from 'react'
 import { TiSocialLinkedinCircular, TiSocialFacebookCircular, TiSocialGithubCircular } from 'react-icons/ti'
-import { CgMenuOreos } from 'react-icons/cg'
+import { RxCross1 } from 'react-icons/rx'
+
 import Link from 'next/link'
 import MobileNav from './MobileNav'
 
 
 function About() {
-    const [menuPrev,setMenuPrev] = useState(false)
-    const showMobileMenu =()=>{
-        setMenuPrev(true)
-    }
+    
     return (
         <>
-        <div className=' lg:hidden z-10 md:hidden absolute right-0 p-4'>
-            {menuPrev?<CgMenuOreos size={40} onClick={()=>setMenuPrev(false)} />
-            :<CgMenuOreos onClick={showMobileMenu} size={40} />}
-        </div>
-        {menuPrev?<MobileNav />:null}
+        <MobileNav />
         <div id='about' className='max-sm:pr-0 w-[100%] h-[100vh] pl-80 max-md:p-12 flex items-center'>
             <div id='text--box' className='flex flex-col'>
                 <h1 className='text-6xl max-md:text-4xl font-saira font-bold max-sm:text-6xl text-[#343a40]'>ALFAZ <span className='text-[#36107d]'>HOSAIN</span></h1>

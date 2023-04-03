@@ -27,6 +27,7 @@ function Skill() {
                 <div className='pl-6 max-sm:pl-0'>
                     <div>
                         <p className='text-grayText font-openSans flex items-center text-[17px] max-sm:text-[18px]'> <RxDot /> Responsive Design For All Screen</p>
+                        <p className='text-grayText font-openSans flex items-center text-[17px] max-sm:text-[18px]'> <RxDot /> Mernstack Development</p>
                         <p className='text-grayText font-openSans flex items-center text-[17px] max-sm:text-[18px]'> <RxDot /> Single And Multiple Pages</p>
                         <p className='text-grayText font-openSans flex items-center text-[17px] max-sm:text-[18px]'> <RxDot /> Web3 Development (BACKEND)</p>
                         <p className='text-grayText font-openSans flex items-center text-[17px] max-sm:text-[18px]'> <RxDot /> Wallet Integration</p>
