@@ -1,5 +1,4 @@
 import React from 'react'
-import profile from "./Profile.jpg"
 import Image from 'next/image'
 import projects from "./projectsData"
 
