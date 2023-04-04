@@ -4,7 +4,6 @@ import Link from "next/link"
 
 function Sidebar() {
     return (
-      // bg-[#bd5d38]
       <div className="w-[22%] fixed h-[100vh] max-md:hidden bg-[#5800FF]">
         <div className="mx-auto flex flex-col justify-center items-center pt-[6rem] gap-8">
           <Image className="rounded-full border-[8px] w-[170px] h-[170px] object-cover  border-[#36107d]" src={img} alt="Alfaz" />
